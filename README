@@ -1,0 +1,14 @@
+#    -*- mode: org -*-
+
+* Installing Mojolicous
+  http://mojolicio.us/
+  sudo sh -c "curl -L cpanmin.us | perl - Mojolicious"
+** Debian
+   sudo aptitude install libmojolicious-perl
+
+* Start development server
+  morbo --verbose Intergard.pl
+  (default port 3000)
+
+* Generate static html mirror
+  wget -m http://localhost:3000/ -olog
