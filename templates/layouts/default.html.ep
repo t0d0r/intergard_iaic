@@ -1,0 +1,52 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Международна асоциация на застраховани и пострадали при катастрофи</title>
+    <meta name="description" content="Асоциация за национална и международна правна защита на пострадалите от пътно транспортни произшествия и участниците в тях" />
+    <meta name="keywords" content="ПТП, застраховки, катастрофи, искове, обезщетения, асоциация, правна защита" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <%= stylesheet "/style/site.css" %>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <%= javascript "/js/libs/respond.min.js" %>
+        <![endif]-->
+  </head>
+  <body<%== ' class="' . $body_class . '"' if $body_class%>>
+    <header>
+      <div id="header-inner">
+        <h1>
+          <a href="/" id="branding" rel="home">
+            Интергард
+          </a>
+        </h1>
+        <%= include 'nav' %>
+      </div><!-- #header-inner -->
+    </header>
+    <div id="wrapper">
+      <%= content %>
+    </div><!-- #wrapper -->
+    <footer>
+      <div id="footer-inner">
+        <div class="thumbnail">
+          <h5>Свържете се с нас</h5>
+          <p>
+            GSM: <a href="tel:+359878154496">+359/878 15 44 96</a>
+          </p>
+        </div><!-- //.thumbnail -->
+      </div> <!-- //.footer-inner -->
+    </footer>
+    <%= link_to 'Направете запитване' => 'query-form', id => 'call-for-action' %>
+    <!--[if lt IE 7 ]>
+	    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+	    <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+        <![endif]-->
+  </body>
+</html>

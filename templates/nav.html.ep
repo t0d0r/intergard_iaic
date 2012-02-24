@@ -1,0 +1,17 @@
+<nav>
+  <ul>
+    <li>
+      <%= link_to 'Начало' => '/', class => 'home' %>
+    </li>
+    <li>
+      <%= link_to 'За Асоциацията' => 'about', class => 'about' %>
+    </li>
+    <li>
+      <%= link_to 'Полезно' => 'usefully', class => 'usefully' %>
+    </li>
+    <li>
+      <%= link_to 'Контакти' => 'contacts', class => 'contacts' %>
+    </li>
+  </ul>
+</nav>
+

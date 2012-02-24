@@ -1,0 +1,73 @@
+<% layout 'default'; %>
+    <div id="wrapper-inner">
+      <section class="teasers">
+        <h2>При нас консултациите са безплатни</h2>
+        <div class="thumbnail">
+          <a href="#nope">
+            <img src="/images/thumb_72.jpg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Застрахователни въпроси</h3>
+          </div><!-- caption -->
+        </div> <!-- //.thumbnail -->
+        <div class="thumbnail">
+          <a href="#nope">
+            <img src="/images/thumb_71.jpg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Консултации при ПТП</h3>
+          </div><!-- caption -->
+        </div><!-- //.thumbnail -->
+        <div class="thumbnail">
+          <a href="#nope">
+            <img src="/images/thumb_80.jpg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Здравни застраховки</h3>
+          </div><!-- caption -->
+        </div><!-- //.thumbnail -->
+        <div class="thumbnail">
+          <a href="#nope">
+            <img src="/images/thumb_69.jpg" alt="" />
+          </a>
+          <div class="caption">
+            <h3>Получаване на обезщетения</h3>
+          </div><!-- caption -->
+        </div><!-- //.thumbnail -->
+      </section>
+      <section class="quick-links">
+        <div class="block-link">
+          <div class="work">
+            <img src="/images/crash2.gif">
+            <p>
+              Подпомагане и консултиране на пострадалите при <abbr title="Пътно транспортни произшествия">ПТП</abbr> лица
+            </p>
+            <a href="#no-go" class="banner-button">
+              <span>Консултации</span>
+            </a>
+          </div>
+        </div><!-- //.block-link -->
+        <div class="block-link">
+          <div class="who">
+            <img src="/images/med2.gif">
+            <p>
+              Възстановителни процедури и осигуряване на лечение
+            </p>
+            <a href="#no-go" class="banner-button">
+              <span>Медицина</span>
+            </a>
+          </div>
+        </div><!-- //.block-link -->
+        <div class="block-link">
+          <div class="jobs">
+            <img src="/images/cash.gif">
+            <p>
+              Съдействие при получаване на обезщетения
+            </p>
+            <a href="#no-go" class="banner-button">
+              <span>Обезщетения</span>
+            </a>
+          </div>
+        </div><!-- //.block-link -->
+      </section>
+    </div><!-- #wrapper-inner -->

@@ -1,0 +1,40 @@
+<% layout 'default'; %>
+<article>
+  <hgroup>
+    <h2>Свържете се с нас</h2>
+  </hgroup>
+  <div class="showcase">
+    <div class="showcase-inner">
+      <div class="showcase-text">
+        <div class="vcard">
+          <%= link_to '„Международна асоциация на застраховани и пострадали при катастрофи“' => '/', class => "url fn org" %>
+          <div class="tel">
+            <a href="tel:+359878154496">+359/878 15 44 96</a>
+          </div>
+          <br/>
+          <a href="http://suda.co.uk/projects/microformats/hcard/get-contact.php?uri=<%= $self->req->url->to_abs %>">
+            Изтеглете си и нашата електронна визитка (vCard)</a>
+        </div>
+      </div><!-- //.showcase-text -->
+      <div id="slideshow">
+        <iframe width="570" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=bg&amp;geocode=&amp;q=%D0%92%D0%B0%D1%80%D0%BD%D0%B0,+%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F&amp;aq=0&amp;oq=%D0%92%D0%B0%D1%80%D0%BD%D0%B0&amp;sll=37.0625,-95.677068&amp;sspn=34.534108,56.513672&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%92%D0%B0%D1%80%D0%BD%D0%B0,+%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F&amp;t=m&amp;ll=43.216686,27.91214&amp;spn=0.16013,0.390701&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=bg&amp;geocode=&amp;q=%D0%92%D0%B0%D1%80%D0%BD%D0%B0,+%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F&amp;aq=0&amp;oq=%D0%92%D0%B0%D1%80%D0%BD%D0%B0&amp;sll=37.0625,-95.677068&amp;sspn=34.534108,56.513672&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%92%D0%B0%D1%80%D0%BD%D0%B0,+%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F&amp;t=m&amp;ll=43.216686,27.91214&amp;spn=0.16013,0.390701&amp;z=11&amp;iwloc=A" style="color:#0000FF;text-align:left">Вижте по-голяма карта</a></small>
+      </div><!-- //#slideshow -->
+    </div><!-- //.showcase-inner -->
+  </div><!-- //.showcase -->
+  <div id="wrapper-inner">
+    <h3>Ние сме до Вас!</h3>
+    <p>
+      Международна асоциация на застраховани и пострадали при катастрофи е винаги до Вас.
+    </p>
+    <p>
+      Свържете се с нас за да получите консултации относно:
+    </p>
+    <ul class="styled">
+      <li><strong>видовете застраховки</strong> и обезщетенията по тях</li>
+      <li><strong>Вашите права</strong> като застраховано лице</li>
+      <li><strong>получаване на обезщетения</strong> &mdash; документи и стъпки за получаването им</li>
+      <li><strong>правата Ви</strong> като лице пострадало при катастрофа като пешеходец, пътник в МПС или пътник в обществения превоз</li>
+      <li><strong>избор на застрахователен брокер</strong> &mdash; как да изберем, какво да гледаме в полиците</li>
+    </ul>
+  </div><!-- //#wrapper-inner -->
+</article>
